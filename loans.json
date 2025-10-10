@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "userName": "jeff",
+      "userID": 101,
+      "loans": [
+        {
+          "loanID": "LN-JF-1001",
+          "loanType": "Personal loan",
+          "installments": [
+            { "installmentNumber": "1/4", "paymentDate": "2025-07-15", "amount": 75.50, "referenceNumber": "INV-JF-20250715-001", "status": "Paid" },
+            { "installmentNumber": "2/4", "paymentDate": "2025-08-15", "amount": 120.00, "referenceNumber": "INV-JF-20250815-002", "status": "Open" },
+            { "installmentNumber": "3/4", "paymentDate": "2025-09-15", "amount": 45.25, "referenceNumber": "INV-JF-20250915-003", "status": "Paid" },
+            { "installmentNumber": "4/4", "paymentDate": "2025-10-19", "amount": 200.00, "referenceNumber": "INV-JF-20251019-004", "status": "Open" }
+          ]
+        }
+      ]
+    },
+    {
+      "userName": "pia",
+      "userID": 102,
+      "loans": [
+        {
+          "loanID": "LN-PI-2001",
+          "loanType": "Personal loan",
+          "installments": [
+            { "installmentNumber": "1/5", "paymentDate": "2025-07-20", "amount": 45.00, "referenceNumber": "INV-PI-20250720-001", "status": "Paid" },
+            { "installmentNumber": "2/5", "paymentDate": "2025-08-20", "amount": 45.07, "referenceNumber": "INV-PI-20250820-002", "status": "Paid" },
+            { "installmentNumber": "3/5", "paymentDate": "2025-09-20", "amount": 45.15, "referenceNumber": "INV-PI-20250920-003", "status": "Open" },
+            { "installmentNumber": "4/5", "paymentDate": "2025-10-20", "amount": 99.87, "referenceNumber": "INV-PI-20251020-004", "status": "Open" },
+            { "installmentNumber": "5/5", "paymentDate": "2025-11-20", "amount": 115.42, "referenceNumber": "INV-PI-20251020-005", "status": "Open" }
+          ]
+        }
+      ]
+    }
+  ]
+}
