@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "userName": "jeff",
+      "userID": 101,
+      "creditCards": [
+        {
+          "cardID": "CC-JF-01",
+          "brand": "Visa",
+          "last4": "4242",
+          "creditLimit": 3000.00,
+          "transactions": [
+            { "txDate": "2025-10-01", "description": "Grocery Store", "amount": 75.50, "referenceNumber": "TX-JF-1001", "status": "Posted" },
+            { "txDate": "2025-10-03", "description": "Online Subscription", "amount": 12.99, "referenceNumber": "TX-JF-1002", "status": "Posted" },
+            { "txDate": "2025-10-08", "description": "Refund", "amount": -10.00, "referenceNumber": "TX-JF-1003", "status": "Posted" },
+            { "txDate": "2025-10-09", "description": "Pending Gas", "amount": 40.00, "referenceNumber": "TX-JF-1004", "status": "Pending" }
+          ]
+        }
+      ]
+    },
+    {
+      "userName": "pia",
+      "userID": 102,
+      "creditCards": [
+        {
+          "cardID": "CC-PI-01",
+          "brand": "Mastercard",
+          "last4": "5555",
+          "creditLimit": 1500.00,
+          "transactions": [
+            { "txDate": "2025-10-02", "description": "Coffee", "amount": 5.75, "referenceNumber": "TX-PI-2001", "status": "Posted" },
+            { "txDate": "2025-10-05", "description": "Bookstore", "amount": 20.00, "referenceNumber": "TX-PI-2002", "status": "Posted" },
+            { "txDate": "2025-10-06", "description": "IKEA", "amount": 25.00, "referenceNumber": "TX-PI-2003", "status": "Posted" },
+            { "txDate": "2025-10-06", "description": "IKEA - refund", "amount": -25.00, "referenceNumber": "TX-PI-2004", "status": "Posted" },
+            { "txDate": "2025-10-07", "description": "Prisma", "amount": 21.20, "referenceNumber": "TX-PI-2005", "status": "Posted" },
+            { "txDate": "2025-10-09", "description": "Swe-Taxi", "amount": 15.00, "referenceNumber": "TX-PI-2006", "status": "Pending" },
+            { "txDate": "2025-10-09", "description": "Sushi Buffet", "amount": 22.00, "referenceNumber": "TX-PI-2007", "status": "Pending" }
+          ]
+        }
+      ]
+    }
+  ]
+}
