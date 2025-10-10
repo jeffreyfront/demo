@@ -13,7 +13,7 @@
             { "txDate": "2025-10-01", "description": "Grocery Store", "amount": 75.50, "referenceNumber": "TX-JF-1001", "status": "Posted" },
             { "txDate": "2025-10-03", "description": "Online Subscription", "amount": 12.99, "referenceNumber": "TX-JF-1002", "status": "Posted" },
             { "txDate": "2025-10-08", "description": "Refund", "amount": -10.00, "referenceNumber": "TX-JF-1003", "status": "Posted" },
-            { "txDate": "2025-10-09", "description": "Pending Gas", "amount": 40.00, "referenceNumber": "TX-JF-1004", "status": "Pending" }
+            { "txDate": "2025-10-09", "description": "Front Gas", "amount": 40.00, "referenceNumber": "TX-JF-1004", "status": "Pending" }
           ]
         }
       ]
